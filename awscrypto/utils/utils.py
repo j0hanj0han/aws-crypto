@@ -6,6 +6,9 @@ import boto3
 import base64
 from botocore.exceptions import ClientError
 
+def coucou():
+    print("coucou")
+
 
 def get_secret():
 

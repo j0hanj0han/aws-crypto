@@ -19,7 +19,7 @@ VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    boto3
+    'boto3==1.20.41'
 ]
 
 # What packages are optional?
@@ -84,8 +84,5 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
-    # $ setup.py publish support.
-    cmdclass={
-        'start': UploadCommand,
-    },
+
 )
