@@ -1,0 +1,1 @@
+''' send result to mail '''
